@@ -122,3 +122,10 @@ window.addEventListener("scroll", function () {
     }
 
 });
+@supports (-webkit-Touch-callout: none) {
+    .preloader {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        
+    }
+}
